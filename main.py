@@ -3,10 +3,10 @@ from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import GetParticipantsRequest
 from telethon.tl.types import ChannelParticipantsRecent
 
-api_id = 123
-api_hash = 'xxx'
-phone_number = '+1234'
-channel_id = 1234
+api_id = 23972792
+api_hash = '32990f945dae5ae0bc3f702b1caef65a'
+phone_number = '+17343015456'
+channel_id = -1002018878338
 
 # Iniciar sesión con Telethon
 client = TelegramClient('session_name', api_id, api_hash)
@@ -23,7 +23,7 @@ with open('channels.txt', 'r') as file:
 
 # Definir el formato y las palabras clave
 pattern = re.compile(r'\b\d{16}\|\d{2}\|\d{4}\|\d{3}\b')
-keywords = ['𝑨𝑷𝑷𝑹𝑶𝑽𝑬𝑫', 'Approved']
+keywords = ['Card', 'Approved']
 
 # Lista para almacenar los resultados
 resultados = []
